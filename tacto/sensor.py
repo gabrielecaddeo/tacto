@@ -42,7 +42,7 @@ def get_background_image_path(flag = 0):
     if flag is None: 
         return _get_default_config("bgs/bg.jpg")
     else: 
-        return _get_default_config(f"bgs/bg_{flag}.jpg")
+        return _get_default_config(f"bgs_digit/bg_{flag}.jpg")
 
 @dataclass
 class Link:
